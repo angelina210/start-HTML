@@ -1,12 +1,29 @@
-start-HTML
-Комп'ютерна практика по HTML + CSS
+# start-HTML
 
-У репозиторії є 3 завдання:
-Математичні операції ;
-Яке було завдання: Розробити форму для користувача бухгалтерії, в якій навести елементарні математичні операції. Використовуючи jQuery, розробіть функціональність для отримання числових значень від користувача через поля введення, надані у WEB-документі. Призначте полям введення відповідний тип даних. Відображення результату математичної операції на WEB-сторінці за допомогою методу innerHTML у відповідному блоці для кінцевого результату. Форма документа довільна, стиль також у довільній формі.
+Computer practice on HTML + CSS
 
-Контроль текстового блоку ;
-Яке було завдання: Створити HTML-документ версії 5 за допомогою бібліотек jQuery та CSS. Структура веб-сторінки повинна включати: 1) Блок текстової інформації (контент обирайте самостійно, дотримуючись правил цензури); 2) Блок з кнопками керування (використовуйте дизайн кнопок з фреймворку Bootstrap не нижче версії 3): - перша кнопка має приховувати вміст текстового блоку, залишаючи заголовок (class="btn btn-dark) "); - друга кнопка повинна відображати вміст текстового блоку (class="btn btnlight"); - третя кнопка повинна бути прив'язана до функції перемикання jQuery для відображення або приховування вмісту текстового блоку (class="btn btn-dark").
+### There are 3 tasks in the repository:
 
-Object Cat ;
+1. **Mathematical operations**;
+
+**What was the task:**
+Develop a form for the accounting department user, in which to provide basic elementary mathematical operations. Using jQuery, develop functionality
+ to receive numerical values ​​from the user through the input fields provided in the WEB document. Assign the appropriate data type to the input fields.
+  Display the result of the mathematical operation on the WEB page using the innerHTML method in the appropriate block for the final result. The document
+   form is arbitrary, the styling is also in an arbitrary form.
+
+2. **Text block control**;
+
+**What was the task:**
+Create an HTML document version 5 using the jQuery and CSS libraries. The structure of the web page should include: 1) A block of text information
+ (choose the content yourself, following the censorship rules); 2) A block with control buttons (use the design of the buttons from the Bootstrap framework
+  no lower than v. 3): - the first button should hide the content of the text block, leaving the header (class="btn btn-dark"); - the second button should
+   display the content of the text block (class="btn btnlight"); - the third button should be bound to the jQuery toggle function for displaying or hiding
+    the content of the text block (class="btn btn-dark").
+
+3. **Object Cat**;
+
+**What was the task:**
+Develop a function to work with the cat object, in which to provide the following properties: name, weight, color, age, the say_meu() function.
+ The function should output the name, weight, etc., and also execute a function that is one of the properties. Display the results in the browser console.
 Яке було завдання: Розробити функцію для роботи з об’єктом cat, в якій передбачити такі властивості: ім’я, вага, колір, вік, функція say_meu(). Функція повинна виводити назву, вагу тощо, а також виконувати функцію, яка є однією з властивостей. Відобразити результати в консолі браузера.
