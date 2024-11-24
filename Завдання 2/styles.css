@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-block {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+p {
+    line-height: 1.6;
+    color: #495057;
+}
+
+.button-group {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}

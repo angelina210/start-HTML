@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математичні операції</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор для бухгалтерії</h1>
+        <form id="calculatorForm">
+            <label for="number1">Перше число:</label>
+            <input type="number" id="number1" required>
+            
+            <label for="number2">Друге число:</label>
+            <input type="number" id="number2" required>
+            
+            <label for="operation">Операція:</label>
+            <select id="operation">
+                <option value="add">Додавання</option>
+                <option value="subtract">Віднімання</option>
+                <option value="multiply">Множення</option>
+                <option value="divide">Ділення</option>
+            </select>
+            
+            <button type="submit">Обчислити</button>
+        </form>
+        <div id="result">Результат: <span id="resultValue">--</span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
